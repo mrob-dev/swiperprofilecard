@@ -2,43 +2,43 @@
     --brand-light: #fdfefb;
     --brand-dark: #040F0F;
     --brand-primary: #fff;
-    --brand-secondary: #16123f;
-    --brand-tertiary: #f2f2f0;
+    --brand-secondary: #1b605f;
+    --brand-tertiary: #f6f6f6;
     --brand-highlight: #c53211;
     --brand-gold: #cfa647;
 }
 
 html {
-    max-width: 70ch;
-    padding: 3em 1em;
+    max-width: 60ch;
     margin: auto;
     font-size: 14px;
     background-color: white;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
 
 h1 {
     font-family: 'Georgia', serif;
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 900;
     color: var(--brand-dark);
     letter-spacing: 0.2rem;
 }
 
 h2 {
-    font-family: 'Georgia', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1.1rem;
     font-weight: 500;
 }
 
 h3 {
-    font-family: 'Georgia', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1rem;
     font-weight: 500;
 }
 
 p {
-    font-family: 'Georgia', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1rem;
     line-height: 2rem;
     color: var(--brand-dark);
@@ -48,6 +48,7 @@ p {
 .swiperprofilecard {
     background-color: var(--brand-tertiary);
     border-radius: 2rem;
+    max-width: 60ch;
 }
 
 
@@ -124,6 +125,7 @@ p {
     flex-flow: row nowrap;
     justify-content: center;
     text-align: justify;
+    font-family: 'Work Sans', sans-serif;
     padding: 0rem 3rem;
     margin: 2rem 0rem 1.5rem 0rem;
 }
@@ -136,20 +138,20 @@ p {
     flex-flow: row nowrap;
     justify-content: space-around;
     border-radius: 2rem;
-    background-color: var(--brand-secondary);
+    background-color: var(--brand-primary);
     padding: 2.5rem 2rem;
     opacity: 0.9;
 }
 
 .button-email {
     font-weight: bold;
-    color: var(--brand-dark);
-    background-color: var(--brand-light);
+    color: var(--brand-light);
+    background-color: var(--brand-secondary);
     box-sizing: border-box;
-    border: 1.5px solid var(--brand-light);
+    border: 2px solid var(--brand-dark);
     border-radius: 2rem;
     padding: 1.5rem 3rem;
-    box-shadow: inset 0 0 0 1.5px  var(--brand-dark);
+    box-shadow: inset 0 0 0 2.5px  var(--brand-light);
 }
 
 .button-book {
@@ -157,8 +159,8 @@ p {
     color: var(--brand-light);
     background-color: var(--brand-highlight);
     box-sizing: border-box;
-    border: 1.5px solid var(--brand-light);
+    border: 2px solid var(--brand-dark);
     border-radius: 2rem;
     padding: 1.5rem 3rem;
-    box-shadow: inset 0 0 0 1.5px var(--brand-dark);
+    box-shadow: inset 0 0 0 2.5px var(--brand-light);
 }
