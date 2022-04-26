@@ -5,14 +5,16 @@
     --brand-secondary: #e1e7e9;
     --brand-tertiary: #f6f6f6;
     --brand-highlight: #c53211;
+    --brand-primary-highlight: #e7ebf4;
     --brand-secondary-highlight: #1b605f;
+    --brand-tertiary-highlight: #276667;
 }
 
 html {
     max-width: 60ch;
     margin: auto;
     font-size: 14px;
-    background-color: #276667;
+    background-color: var(--brand-tertiary-highlight);
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
