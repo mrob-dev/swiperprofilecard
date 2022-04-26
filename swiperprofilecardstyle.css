@@ -1,0 +1,162 @@
+:root {
+    --brand-light: #fdfefb;
+    --brand-dark: #040F0F;
+    --brand-primary: #fff;
+    --brand-secondary: #16123f;
+    --brand-tertiary: #f2f2f0;
+    --brand-highlight: #c53211;
+}
+
+html {
+    max-width: 70ch;
+    padding: 3em 1em;
+    margin: auto;
+    font-size: 14px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 2rem;
+    color: var(--brand-dark);
+    letter-spacing: 0.4rem;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: var(--brand-dark);
+    max-width: 60ch;
+}
+
+.swiperprofilecard {
+    background-color: var(--brand-tertiary);
+    border-radius: 2rem;
+}
+
+
+/* Swiper Image Styles */
+
+.swiperprofile-image-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    z-index: 1;
+}
+
+.swiperprofile-image-section-image {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    z-index: 1;
+}
+
+
+/* Swiper Profile Card Details */
+
+.swiperprofile-details-section {
+    display: flex;
+    position: relative;
+    flex-flow: column nowrap;
+    background-color: var(--brand-primary);
+    text-align: left;
+    padding: 0.5rem 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: -100px;
+    border-radius: 2rem;
+    z-index: 99;
+}
+
+.swiperprofile-subtitle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+/* Swiper Profile Card Text */
+
+.swipercard-text-section {
+    background-color: var(--brand-tertiary);
+    padding: 10px;
+}
+
+.swipercard-text-info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Swiper Profile Card Text Columns */
+
+.profile-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+
+/* Swiper Profile Card Text Content */
+
+.swipercard-text {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: justify;
+    padding: 0rem 2.5rem;
+}
+
+
+/* Footer Style */
+
+.bookingfooter-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    border-radius: 2rem;
+    background-color: var(--brand-secondary);
+    padding: 2.5rem 2rem;
+}
+
+.button-email {
+    font-weight: bold;
+    color: var(--brand-light);
+    background-color: var(--brand-highlight);
+    border: 0px;
+    border-radius: 2rem;
+    padding: 1.5rem 3rem;
+    -webkit-box-shadow: 10px 10px 25px -16px rgba(0,0,0,0.32);
+    -moz-box-shadow: 10px 10px 25px -16px rgba(0,0,0,0.32);
+    box-shadow: 10px 10px 25px -16px rgba(0,0,0,0.32);
+}
+
+.button-book {
+    font-weight: bold;
+    color: var(--brand-light);
+    background-color: var(--brand-highlight);
+    border: 0px;
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    -webkit-box-shadow: 10px 10px 25px -16px rgba(0,0,0,0.32);
+    -moz-box-shadow: 10px 10px 25px -16px rgba(0,0,0,0.32);
+    box-shadow: 10px 10px 25px -16px rgba(0,0,0,0.32);
+}
