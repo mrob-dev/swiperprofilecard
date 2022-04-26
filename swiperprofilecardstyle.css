@@ -93,6 +93,10 @@ p {
     align-items: flex-start;
 }
 
+.swiperprofile-details-text {
+    font-style: italic;
+}
+
 
 /* Swiper Profile Card Text */
 
